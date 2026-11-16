@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Виктория Цвых — бизнес/системный аналитик</title>
+  <meta name="description" content="Портфолио бизнес/системного аналитика: BPMN, UML, ERD, работа с требованиями, Python, SQL, проектирование API. Резюме и контакты." />
+  <meta property="og:title" content="Виктория Цвых — бизнес/системный аналитик" />
+  <meta property="og:description" content="Резюме-портфолио: проекты, навыки, опыт и контакты." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Onest:wght@500;600;700&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23762a58'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23faf7f4' font-family='Georgia'>В</text></svg>" />
+</head>
+<body>
+
+  <!-- ================= ШАПКА ================= -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">Виктория Цвых</a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#experience">Опыт</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#education">Образование</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= ГЛАВНЫЙ ЭКРАН ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Виктория Цвых</h1>
+          <p class="hero__role">Бизнес / системный аналитик · Новосибирск</p>
+          <p class="hero__lead">
+            Выпускница НГУ по специальности бизнес-информатика.
+            Помогаю бизнесу и разработке говорить на одном языке.
+            В будущем вижу себя продуктовым менеджером или наставником
+            для новичков, которые входят в профессию.
+          </p>
+          <div class="hero__actions">
+            <a class="button" href="#contacts">Связаться со мной</a>
+          </div>
+          <ul class="hero__contacts">
+            <li><a href="mailto:v.tsvykh0@gmail.com">v.tsvykh0@gmail.com</a></li>
+            <li><a href="tel:+79139094365">+7 913 909 43 65</a></li>
+            <li><a href="https://t.me/exxenixx" target="_blank" rel="noopener">Telegram: @exxenixx</a></li>
+          </ul>
+        </div>
+
+        <div class="hero__photo-wrap">
+          <div class="badge">
+            <span class="badge__strap" aria-hidden="true"></span>
+            <span class="badge__clip" aria-hidden="true"></span>
+            <div class="badge__card">
+              <span class="badge__hole" aria-hidden="true"></span>
+              <img src="photo.jpg" alt="Виктория Цвых" class="badge__photo" />
+              <div class="badge__info">
+                <span class="badge__name">Виктория Цвых</span>
+                <span class="badge__role">Бизнес / системный аналитик</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= О СЕБЕ ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">01 / о себе</span>
+          <h2 class="section__title">Коротко о главном</h2>
+        </div>
+
+        <div class="about__grid">
+          <p class="about__text">
+            Интересуюсь полным циклом разработки продукта: от формулирования
+            требований и проектирования MVP до поддержки работающего решения.
+          </p>
+          <p class="about__text">
+            Развиваю навыки продуктового менеджмента — они помогают говорить
+            с бизнесом на одном языке и переводить его запросы в требования,
+            понятные команде разработки.
+          </p>
+        </div>
+
+        <div class="traits">
+          <h3 class="traits__title">Качества</h3>
+          <ul class="traits__list">
+            <li>Многозадачность</li>
+            <li>Исполнительность</li>
+            <li>Аналитический склад ума</li>
+            <li>Пунктуальность</li>
+            <li>Работа в команде</li>
+            <li>Адаптивность</li>
+            <li>Коммуникабельность</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ПРОЕКТЫ ================= -->
+    <section class="section section--offset" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">02 / проекты</span>
+          <h2 class="section__title">Мои работы</h2>
+        </div>
+
+        <div class="projects__grid">
+
+          <!-- Проект 1 -->
+          <article class="project">
+            <div class="project__top">
+              <span class="project__type">Дипломный проект</span>
+            </div>
+            <h3 class="project__title">Веб-приложение для оценки инвестиционных проектов</h3>
+            <p class="project__desc">
+              Создала веб-приложение на Python со Streamlit, Pandas, NumPy и Seaborn
+              для расчёта и визуализации показателей инвестиционных проектов.
+            </p>
+            <ul class="project__meta">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Seaborn</li>
+            </ul>
+          </article>
+
+          <!-- Проект 2 -->
+          <article class="project">
+            <div class="project__top">
+              <span class="project__type">ШИФТ · системный анализ</span>
+            </div>
+            <h3 class="project__title">Проектирование API и прототипа приложения</h3>
+            <p class="project__desc">
+              Формулировала функциональные и нефункциональные требования,
+              проектировала диаграммы BPMN и UML (Activity, Use Case,
+              Sequence), архитектуру API и прототип приложения.
+            </p>
+            <ul class="project__meta">
+              <li>BPMN</li>
+              <li>UML</li>
+              <li>OpenAPI / Swagger</li>
+              <li>Use Case</li>
+            </ul>
+          </article>
+
+          <!-- Проект 3: pet-проект на GitHub -->
+          <article class="project">
+            <div class="project__top">
+              <span class="project__type">Pet-проект · GitHub</span>
+            </div>
+            <h3 class="project__title">Разбор функции «Перевод по номеру телефона»</h3>
+            <p class="project__desc">
+            Учебный кейс системного аналитика: описала пользовательский сценарий
+            и бизнес-правила, спроектировала BPMN, UML Sequence, ERD и учебный
+            API-контракт в OpenAPI. В репозитории — документация, диаграммы
+            и спецификация API.
+            </p>
+            <ul class="project__meta">
+              <li>BPMN</li>
+              <li>UML Sequence</li>
+              <li>ERD</li>
+              <li>OpenAPI</li>
+              <li>Draw.io</li>
+            </ul>
+            <a class="project__link" href="https://github.com/vtsvykh/phone_transfer_analysis" target="_blank" rel="noopener">
+            Открыть на GitHub →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ОПЫТ ================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">03 / опыт</span>
+          <h2 class="section__title">Где я работала</h2>
+        </div>
+
+        <article class="job">
+          <div class="job__period">ноябрь 2024 — июнь 2026</div>
+          <h3 class="job__title">Лаборант</h3>
+          <p class="job__place">Институт экономики и организации промышленного производства СО РАН</p>
+          <ul class="job__achievements">
+            <li>Разработала универсальную финансовую модель, которая обеспечила единый подход к оценке проектов.</li>
+            <li>Спроектировала систему, упростившую процесс оценки проектов и сократившую время на расчёты.</li>
+            <li>Установила систему на ПК сотрудников и провела обучение по использованию.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= НАВЫКИ ================= -->
+    <section class="section section--offset" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">04 / навыки</span>
+          <h2 class="section__title">Что я умею</h2>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skill-group">
+            <h3 class="skill-group__title">Инструменты</h3>
+            <ul class="skill-group__list">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>ARIS</li>
+              <li>Draw.io</li>
+              <li>Postman</li>
+              <li>Swagger / OpenAPI</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Нотации</h3>
+            <ul class="skill-group__list">
+              <li>BPMN</li>
+              <li>UML</li>
+              <li>ERD</li>
+              <li>IDEF</li>
+              <li>EPC</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Работа с требованиями</h3>
+            <ul class="skill-group__list">
+              <li>Функциональные и нефункциональные требования</li>
+              <li>User Story</li>
+              <li>Use Case</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Разбираюсь в технологиях</h3>
+            <ul class="skill-group__list">
+              <li>REST / SOAP / gRPC</li>
+              <li>Микросервисы и паттерны</li>
+              <li>Брокеры сообщений</li>
+              <li>Agile / Scrum</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Языки</h3>
+            <ul class="skill-group__list">
+              <li>Английский — B2</li>
+              <li>Французский — B1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ОБРАЗОВАНИЕ ================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">05 / образование</span>
+          <h2 class="section__title">Учёба и курсы</h2>
+        </div>
+
+        <div class="edu__grid">
+          <article class="edu">
+            <div class="edu__period">2022 — 2026</div>
+            <h3 class="edu__title">Новосибирский государственный университет</h3>
+            <p class="edu__place">Экономический факультет, бизнес-информатика</p>
+          </article>
+
+          <article class="edu">
+            <div class="edu__period">июль 2024</div>
+            <h3 class="edu__title">ШИФТ — интенсив по системному анализу</h3>
+            <p class="edu__place">
+              Диаграммы BPMN и UML, формулирование требований, проектирование
+              архитектуры API и прототипа приложения.
+            </p>
+          </article>
+
+          <article class="edu">
+            <div class="edu__period">февраль-июнь 2025</div>
+            <h3 class="edu__title">Бизнес- и системный анализ (БКС)</h3>
+            <p class="edu__place">
+              Приоритизация задач, интеграция систем, базовые компетенции аналитика.
+            </p>
+          </article>
+
+          <article class="edu">
+            <div class="edu__period">февраль-июнь 2026</div>
+            <h3 class="edu__title">Основы разработки мобильных приложений</h3>
+            <p class="edu__place">
+              Функциональные и нефункциональные требования, интеграции,
+              проектирование диаграмм, CustDev.
+              .</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= КОНТАКТЫ ================= -->
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">06 / контакты</span>
+          <h2 class="section__title">Свяжитесь со мной</h2>
+        </div>
+
+        <div class="contacts__grid">
+          <a class="contact" href="mailto:v.tsvykh0@gmail.com">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">v.tsvykh0@gmail.com</span>
+          </a>
+          <a class="contact" href="tel:+79139094365">
+            <span class="contact__label">Телефон</span>
+            <span class="contact__value">+7 913 909 43 65</span>
+          </a>
+          <div class="contact">
+            <span class="contact__label">Город</span>
+            <span class="contact__value">Новосибирск</span>
+          </div>
+        </div>
+
+        <p class="contacts__note">
+          Открыта к предложениям на позицию бизнес- или системного аналитика.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Виктория Цвых</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
